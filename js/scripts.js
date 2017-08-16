@@ -6,4 +6,6 @@ console.log(allNames);
 var newName = 'Marian'
 if (allNames.indexOf(newName) === -1) {
     var x = allNames.push('Marian');
+}else if (allNames.indexOf(newName) === 1) {
+    console.log ('Nie można dodać, imię już istnieje');
 }
